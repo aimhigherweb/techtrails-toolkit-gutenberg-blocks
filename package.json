@@ -1,0 +1,26 @@
+{
+  "name": "techtrails-blocks",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "wp-scripts start --config webpack.config.js",
+    "build": "gulp sassy && wp-scripts build",
+    "sass": "gulp watch"
+  },
+  "keywords": [],
+  "author": "Amy Kapernick <amy@aimhigherweb.design> (https://amyskapers.dev)",
+  "license": "MIT",
+  "dependencies": {
+    "@wordpress/block-editor": "^3.6.0",
+    "@wordpress/blocks": "^6.11.0",
+    "@wordpress/components": "^9.1.0",
+    "@wordpress/element": "^2.11.0",
+    "@wordpress/scripts": "^7.0.1",
+    "gulp": "^4.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "prettier": "^1.16.4"
+  }
+}

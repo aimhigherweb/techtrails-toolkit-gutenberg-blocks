@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap");
+.edit-post-visual-editor.editor-styles-wrapper .editor-writing-flow.block-editor-writing-flow * {
+  font-family: "Roboto", Arial, sans-serif; }
+
+.edit-post-visual-editor.editor-styles-wrapper .editor-writing-flow.block-editor-writing-flow h1, .edit-post-visual-editor.editor-styles-wrapper .editor-writing-flow.block-editor-writing-flow h2, .edit-post-visual-editor.editor-styles-wrapper .editor-writing-flow.block-editor-writing-flow h3, .edit-post-visual-editor.editor-styles-wrapper .editor-writing-flow.block-editor-writing-flow h4, .edit-post-visual-editor.editor-styles-wrapper .editor-writing-flow.block-editor-writing-flow h5, .edit-post-visual-editor.editor-styles-wrapper .editor-writing-flow.block-editor-writing-flow .editor-post-title .editor-post-title__input {
+  font-family: "Roboto", Arial, sans-serif; }
+
+.colour-container {
+  background: var(--background);
+  border: 2px solid #1c1e23;
+  padding: 20px; }
+
+.avatar-speech {
+  display: grid;
+  grid-template-columns: repeat(2, auto); }
+  .avatar-speech label {
+    display: block;
+    grid-row: 1; }
+  .avatar-speech button {
+    height: auto; }
+    .avatar-speech button img {
+      max-height: 200px; }
+  .avatar-speech blockquote {
+    border: 2px solid #1c1e23;
+    border-radius: 20px;
+    padding: 10px; }
+
+/*# sourceMappingURL=../../maps/colour_container/techtrails-styles.css.map */
