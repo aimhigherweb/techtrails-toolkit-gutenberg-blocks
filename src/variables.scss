@@ -3,21 +3,18 @@
 $font_regular: 'Roboto', Arial, sans-serif;
 $font_headings: 'Roboto', Arial, sans-serif;
 
+$yellow: #F9ED31;
+$blue: #00A9A3;
+$purple: #6F2B8D;
+$green: #BED73B;
+$orange: #F15A29;
+$maroon: #BE1E2D;
+
 //Colours
-$primary: #003462;
-$primary_light: #9cacbd;
-$secondary: #72c6a7;
-$secondary_light: #e8f6f0;
+$primary: $yellow;
+$secondary: $blue;
 
 //Neutrals
-$main: #1c1e23;
-$grey_light: #eeeeee;
-$grey: #808080;
-
-//Event Colours
-$yellow: #f5b335;
-$blue: #5f99af;
-$purple: #702c63;
-$green: #70d44b;
-$orange: #ff9015;
-$red: #b12028;
+$main: #000000;
+$white: #ffffff;
+$grey: #666666;

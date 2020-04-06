@@ -7,7 +7,7 @@
 
 .colour-container {
   background: var(--background);
-  border: 2px solid #1c1e23;
+  border: 2px solid #000000;
   padding: 20px; }
 
 .avatar-speech {
@@ -21,8 +21,20 @@
     .avatar-speech button img {
       max-height: 200px; }
   .avatar-speech blockquote {
-    border: 2px solid #1c1e23;
+    border: 2px solid #000000;
     border-radius: 20px;
     padding: 10px; }
+
+.subject-areas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+  .subject-areas .subject button {
+    height: auto;
+    min-height: 1.2em;
+    align-self: end; }
+    .subject-areas .subject button img {
+      max-height: 200px; }
+  .subject-areas button {
+    align-self: end; }
 
 /*# sourceMappingURL=../../maps/colour_container/techtrails-styles.css.map */

@@ -21,8 +21,8 @@ const colourContainer = () => {
 					color: '#F9ED31',
 				},
 				{
-					name: 'Aqua',
-					slug: 'aqua',
+					name: 'Blue',
+					slug: 'blue',
 					color: '#00A9A3',
 				},
 				{
@@ -44,7 +44,12 @@ const colourContainer = () => {
 					name: 'Purple',
 					slug: 'purple',
 					color: '#6F2B8D',
-                },
+				},
+				{
+					name: 'White',
+					slug: 'white',
+					color: '#ffffff'
+				},
 			];
 
 			let colour = props.attributes.colour
